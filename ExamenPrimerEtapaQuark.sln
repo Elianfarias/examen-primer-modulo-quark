@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenPrimerEtapaQuark", "ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark.csproj", "{CA14E52C-EC43-4B7B-8AAF-FE7C0CD185CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA14E52C-EC43-4B7B-8AAF-FE7C0CD185CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA14E52C-EC43-4B7B-8AAF-FE7C0CD185CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA14E52C-EC43-4B7B-8AAF-FE7C0CD185CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA14E52C-EC43-4B7B-8AAF-FE7C0CD185CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB86882A-B084-403B-978C-581F9E6BC4C7}
+	EndGlobalSection
+EndGlobal

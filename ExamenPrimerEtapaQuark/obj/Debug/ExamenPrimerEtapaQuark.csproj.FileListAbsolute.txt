@@ -1,0 +1,11 @@
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\bin\Debug\ExamenPrimerEtapaQuark.exe.config
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\bin\Debug\ExamenPrimerEtapaQuark.exe
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\bin\Debug\ExamenPrimerEtapaQuark.pdb
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.csproj.AssemblyReference.cache
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.csproj.SuggestedBindingRedirects.cache
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.Form1.resources
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.Properties.Resources.resources
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.csproj.GenerateResource.cache
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.csproj.CoreCompileInputs.cache
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.exe
+C:\Users\Elian\Documents\repos\ExamenPrimerEtapaQuark\ExamenPrimerEtapaQuark\obj\Debug\ExamenPrimerEtapaQuark.pdb
