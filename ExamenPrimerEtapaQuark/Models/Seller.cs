@@ -2,9 +2,9 @@
 {
     public class Seller
     {
-        private string SellerCode { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        private string SellerCode { get; }
+        private string Name { get; }
+        private string Surname { get; }
 
         public Seller(string sellerCode, string name, string surname)
         {
@@ -14,5 +14,7 @@
         }
 
         public string GetSellerCode() => SellerCode;
+        public string GetName() => Name;
+        public string GetSurname() => Surname;
     }
 }

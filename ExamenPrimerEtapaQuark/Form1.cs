@@ -35,9 +35,9 @@ namespace ExamenPrimerEtapaQuark
             seller = sellerController.GetSeller();
             shopController.SetProductsSelected(isShirt: shirtRadioBtn.Checked, neckType: neckType, sleeveType: sleeveType, pantType: pantType, quality: quality);
 
-            shopNameLabel.Text = shop.Name;
-            shopAdressLabel.Text = shop.Address;
-            sellerNameLabel.Text = seller.Name + " " + seller.Surname;
+            shopNameLabel.Text = shop.GetName();
+            shopAdressLabel.Text = shop.GetAddress();
+            sellerNameLabel.Text = seller.GetName() + " " + seller.GetSurname();
             totalPriceLabel.Text = "";
             quotationBtn.Enabled = false;
             stockLabel.Text = shopController.GetStock();

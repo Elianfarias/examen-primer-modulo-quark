@@ -10,10 +10,7 @@ namespace ExamenPrimerEtapaQuark.Controllers
         private Product product;
         public ShopController()
         {
-            shop = new Shop
-            {
-                Products = InitializeProducts()
-            };
+            shop = new Shop(InitializeProducts());
         }
 
         public Shop GetShop()
@@ -35,7 +32,7 @@ namespace ExamenPrimerEtapaQuark.Controllers
         {
             if (isShirt)
             {
-                foreach (var product in shop.Products)
+                foreach (var product in shop.GetProducts())
                 {
                     if (product is Shirt shirt)
                     {
@@ -49,7 +46,7 @@ namespace ExamenPrimerEtapaQuark.Controllers
             }
             else
             {
-                foreach (var product in shop.Products)
+                foreach (var product in shop.GetProducts())
                 {
                     if(product is Pant pant)
                     {

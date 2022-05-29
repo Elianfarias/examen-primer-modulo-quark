@@ -4,7 +4,7 @@ namespace ExamenPrimerEtapaQuark.Models
 {
     public class Pant : Product
     {
-        public PantType Type { get; set; }
+        public PantType Type { get; }
 
         public Pant(PantType type, int stock, Quality quality) : base(stock, quality)
         {
@@ -13,7 +13,7 @@ namespace ExamenPrimerEtapaQuark.Models
 
         public override double GetFinalPrice()
         {
-            var finalPrice = Price;
+            var finalPrice = GetPrice();
 
             if (Type == PantType.Chupín)
                 finalPrice -= finalPrice * 0.12;

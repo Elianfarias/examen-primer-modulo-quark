@@ -4,9 +4,9 @@ namespace ExamenPrimerEtapaQuark.Models
 {
     public abstract class Product
     {
-        public double Price { get; set; }
-        private int Stock { get; set; }
-        public Quality Quality { get; set; }
+        private double Price { get; set; }
+        private int Stock { get; }
+        public Quality Quality { get; }
 
         public Product(int stock, Quality quality)
         {
@@ -15,11 +15,9 @@ namespace ExamenPrimerEtapaQuark.Models
             Quality = quality;
         }
 
-        public int GetStock()
-        {
-            return Stock;
-        }
-
+        public int GetStock() => Stock;
+        public double GetPrice() => Price;
+        public void SetPrice(double price) => Price = price;
         public abstract double GetFinalPrice();
     }
 }

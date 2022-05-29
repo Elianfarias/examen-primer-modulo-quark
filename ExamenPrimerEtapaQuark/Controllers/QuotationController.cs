@@ -15,7 +15,7 @@ namespace ExamenPrimerEtapaQuark.Controllers
 
         public void Quote(DateTime quotationDate, string sellerCode, int productQuantity, ref double price, Product product)
         {
-            product.Price = price;
+            product.SetPrice(price);
             price = product.GetFinalPrice() * productQuantity;
             var quotation = new Quotation(quotationDate, sellerCode, productQuantity, price, product);
 

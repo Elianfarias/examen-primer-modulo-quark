@@ -4,8 +4,8 @@ namespace ExamenPrimerEtapaQuark.Models
 {
     public class Shirt : Product
     {
-        public SleeveType SleeveType { get; set; }
-        public NeckType NeckType { get; set; }
+        public SleeveType SleeveType { get; }
+        public NeckType NeckType { get; }
 
         public Shirt(SleeveType sleeveType, NeckType neckType, int stock, Quality quality) : base(stock, quality)
         {
@@ -15,7 +15,7 @@ namespace ExamenPrimerEtapaQuark.Models
 
         public override double GetFinalPrice()
         {
-            var finalPrice = Price;
+            var finalPrice = GetPrice();
 
             if (SleeveType == SleeveType.Corto)
                 finalPrice -= finalPrice * 0.1;

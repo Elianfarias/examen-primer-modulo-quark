@@ -8,12 +8,12 @@ namespace ExamenPrimerEtapaQuark.Models
     public class Quotation : IPrintable
     {
         static int NextId;
-        private int Id { get; set; }
-        private DateTime QuotationDate { get; set; }
-        private string SellerCode { get; set; }
-        private int ProductQuantity { get; set; }
-        private double TotalPrice { get; set; }
-        private Product Product { get; set; }
+        private int Id { get; }
+        private DateTime QuotationDate { get; }
+        private string SellerCode { get; }
+        private int ProductQuantity { get; }
+        private double TotalPrice { get; }
+        private Product Product { get; }
 
         public Quotation(DateTime quotationDate, string sellerCode, int productQuantity, double totalPrice, Product product)
         {

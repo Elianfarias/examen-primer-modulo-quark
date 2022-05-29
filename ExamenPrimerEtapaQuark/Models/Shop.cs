@@ -4,16 +4,19 @@ namespace ExamenPrimerEtapaQuark.Models
 {
     public class Shop
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Address { get; set; }
-        public List<Product> Products { get; set; }
+        private string Name { get; }
+        private string Address { get; }
+        private List<Product> Products { get; }
 
-        public Shop()
+        public Shop(List<Product> products)
         {
-            ID = 0;
             Name = "Lanús Shop";
             Address = "9 de julio 123";
+            Products = products;
         }
+
+        public List<Product> GetProducts() => this.Products;
+        public string GetName() => this.Name;
+        public string GetAddress() => this.Address;
     }
 }
